@@ -18,4 +18,4 @@
 
 ;;Git
 #_{:clj-kondo/ignore [:clojure-lsp/unused-public-var]}
-(def git_hello "Git hello!!!!")
+(def git_hello "Git hello")
