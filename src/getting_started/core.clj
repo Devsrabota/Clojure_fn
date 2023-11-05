@@ -11,9 +11,9 @@
   [& args] 
   (list* 
    (map say-hello 
-        (map (fn [x] (map x [:name :age]))[devs newdevs]))))
+        (map (fn [x] (list*(map x [:name :age])))[devs newdevs]))))
 
-
+(list* (map println (map git_hello [:git :nameGit])))
 
 
 
