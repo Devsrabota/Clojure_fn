@@ -280,3 +280,5 @@ clj꞉getting-started.core-test꞉> 
 clj꞉getting-started.module꞉> 
 #'getting-started.module/say-hello
 clj꞉getting-started.module꞉> 
+#'getting-started.module/git-hello
+clj꞉getting-started.module꞉> 

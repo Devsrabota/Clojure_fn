@@ -9,9 +9,10 @@
 (defn -main
   "I don't do a whole lot ... yet."
   [& args] 
-  (list* (map #(println (:name %) "Age" (:age %)) [devs newdevs])))
+  (list* (map say-hello [devs newdevs])))
 
-(list* (map println (map git_hello [:git :nameGit])))
+
+(list* (map hello_git [git_name]))
 
 
 

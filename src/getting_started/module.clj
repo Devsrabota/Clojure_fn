@@ -13,9 +13,14 @@
 
 ;;Hello
 #_{:clj-kondo/ignore [:clojure-lsp/unused-public-var]}
-(defn say-hello [f] (println "Hello" f))
+(def say-hello  #(println (:name %) (:age %)))
+
+
+;;gitHello
+#_{:clj-kondo/ignore [:clojure-lsp/unused-public-var]}
+(def hello_git #(println (:git %) (:nameGit %)))
 
 
 ;;Git
 #_{:clj-kondo/ignore [:clojure-lsp/unused-public-var]}
-(def git_hello {:git "Git hello!!!" :nameGit "DevsGit"})
+(def git_name {:git "Git hello!!!" :nameGit "DevsGit"})
