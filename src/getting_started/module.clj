@@ -13,7 +13,7 @@
 
 ;;Hello
 #_{:clj-kondo/ignore [:clojure-lsp/unused-public-var]}
-(def say-hello (fn [f] (println "Hello" f)))
+(defn say-hello [f] (println "Hello" f))
 
 
 ;;Git
