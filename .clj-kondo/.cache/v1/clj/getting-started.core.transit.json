@@ -1,1 +1,1 @@
-["^ ","~$-main",["^ ","~:row",9,"~:col",1,"~:varargs-min-arity",0,"~:name","^0","~:ns","~$getting-started.core","~:top-ns","^6","~:arities",["^ ","~:varargs",["^ ","~:ret","~:list","~:min-arity",0,"~:arglist-str","[& args]"]],"~:type","~:fn"],"~:filename","/Users/vladimirsalaev/getting-started/src/getting_started/core.clj"]
+["^ ","~$-main",["^ ","~:row",9,"~:col",1,"~:varargs-min-arity",0,"~:name","^0","~:ns","~$getting-started.core","~:top-ns","^6","~:type","~:fn"],"~:filename","/Users/vladimirsalaev/getting-started/src/getting_started/core.clj"]

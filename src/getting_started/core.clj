@@ -9,10 +9,13 @@
 (defn -main
   "I don't do a whole lot ... yet."
   [& args] 
-  (list* (map say-hello [devs newdevs])))
+  (fin name1 name2)
+  (fin1 name3)
+  (fin2 name1 name2))
 
 
-(list* (map hello_git [git_name]))
+
+
 
 
 

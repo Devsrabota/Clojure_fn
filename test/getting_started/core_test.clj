@@ -6,4 +6,4 @@
 
 (deftest start-test
   (testing "FIXME, I fail."
-    (is (string? (devs)))))
+    (is (string? ()))))

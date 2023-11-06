@@ -282,3 +282,9 @@ clj꞉getting-started.module꞉> 
 clj꞉getting-started.module꞉> 
 #'getting-started.module/git-hello
 clj꞉getting-started.module꞉> 
+#'getting-started.module/className
+clj꞉getting-started.module꞉> 
+#'getting-started.module/say-hello
+clj꞉getting-started.module꞉> 
+#'getting-started.module/hello_git
+clj꞉getting-started.module꞉> 
