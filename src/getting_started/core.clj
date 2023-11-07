@@ -9,13 +9,9 @@
 (defn -main
   "I don't do a whole lot ... yet."
   [& args] 
-  (fin name1 name2)
-  (fin1 name3)
-  (fin2 name1 name2))
-
-
-
-
+  (data user1 user2)
+  (git user3)
+  (dataCopy user1 user2))
 
 
 

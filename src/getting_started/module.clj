@@ -3,15 +3,15 @@
 
 ;;------------------------------------Name
 #_{:clj-kondo/ignore [:inline-def]}
-(def name1 {:name "Devs" :age 35})
+(def user1 {:name "Devs" :age 35})
 
 
 ;;Name
-(def name2 {:name "newDevs" :age 36})
+(def user2 {:name "newDevs" :age 36})
 
 
 ;;Name
-(def name3 {:git "Git hello!!!" :nameGit "DevsGit"})
+(def user3 {:git "Git hello!!!" :nameGit "DevsGit"})
 
 
 ;;------------------------------------Hello
@@ -26,16 +26,16 @@
 
 ;;------------------------------------finish
 #_{:clj-kondo/ignore [:unused-binding]}
-(defn fin [a b] (list* (map say-hello [a b])))
+(defn data [a b] (list* (map say-hello [a b])))
 
 
 ;;finish
 #_{:clj-kondo/ignore [:unused-binding]}
-(defn fin1 [a] (list* (map hello_git [a])))
+(defn git [a] (list* (map hello_git [a])))
 
 
 ;;finish
 #_{:clj-kondo/ignore [:unused-binding]}
-(defn fin2 [a b] (->> [a b]
+(defn dataCopy [a b] (->> [a b]
                  (map say-hello)
                  (list*)))
